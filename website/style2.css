@@ -1,0 +1,35 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.nevbar {
+  height: 50px;
+  background-color: #c30047;
+  display: flex;
+  justify-content: space-between;
+}
+.leftone {
+  width: 800px;
+  height: 40px;
+}
+.rightone {
+  width: 500px;
+  height: 40px;
+}
+.imageflex {
+  display: flex;
+  font-size: 25px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  padding-top: 10px;
+  gap: 10px;
+  padding-left: 40px;
+}
+.fles {
+  display: flex;
+  height: 40px;
+  color: white;
+  gap: 70px;
+}

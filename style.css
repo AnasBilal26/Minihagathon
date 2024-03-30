@@ -1,0 +1,507 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.bigimage {
+  background-image: url(./h1_hero1.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bigimage:hover {
+  opacity: 0.5;
+}
+.nevbar {
+  height: 50px;
+  background-color: #c30047;
+  display: flex;
+  justify-content: space-between;
+}
+.nevbar:hover {
+  background-color: red;
+}
+.leftone {
+  width: 800px;
+  height: 40px;
+}
+.rightone {
+  width: 500px;
+  height: 40px;
+}
+.imageflex {
+  display: flex;
+  font-size: 25px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  padding-top: 10px;
+  gap: 10px;
+  padding-left: 40px;
+}
+.fles {
+  display: flex;
+  height: 40px;
+  color: white;
+  gap: 70px;
+}
+
+.desh {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  left: 220px;
+  top: 5px;
+}
+.gmail {
+  color: white;
+  position: absolute;
+  left: 250px;
+  top: 12px;
+  font-size: 16px;
+}
+.chariter {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.mainsecond {
+  display: flex;
+}
+.right {
+  display: flex;
+  gap: 40px;
+  font-size: 25px;
+  width: 100%;
+  justify-content: end;
+  margin-right: 200px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.donate {
+  height: 50px;
+  width: 150px;
+  background-color: #c30047;
+  border-radius: 30px;
+  margin-top: -10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  font-weight: bold;
+}
+.bigimage {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.mainthird {
+  height: 700px;
+}
+.causes {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 90px;
+}
+
+.imgparent {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  /* padding-top: 70px; */
+  gap: 20px;
+}
+.firstimage {
+  border: 1px solid black;
+  width: 429px;
+  height: 470px;
+  border-top-right-radius: 10px;
+
+  border-top-left-radius: 10px;
+}
+.sponser {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.firstcontent {
+  margin-left: 30px;
+}
+
+.donate1 {
+  height: 40px;
+  width: 120px;
+  background-color: #c30047;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  margin-left: 30px;
+}
+.forfirstdiv {
+  display: flex;
+  gap: 60px;
+}
+.one {
+  color: #c30047;
+  font-weight: bold;
+}
+.second {
+  color: #c30047;
+  font-weight: bold;
+}
+.secondimage {
+  border: 1px solid black;
+  width: 429px;
+  height: 470px;
+
+  border-top-right-radius: 10px;
+
+  border-top-left-radius: 10px;
+}
+.thirdimage {
+  border: 1px solid black;
+  width: 429px;
+  height: 470px;
+
+  border-top-right-radius: 10px;
+
+  border-top-left-radius: 10px;
+}
+.oneimage {
+  border-top-right-radius: 10px;
+
+  border-top-left-radius: 10px;
+}
+.twooimage {
+  border-top-right-radius: 10px;
+
+  border-top-left-radius: 10px;
+}
+.thirddimage {
+  border-top-right-radius: 10px;
+
+  border-top-left-radius: 10px;
+}
+
+.hh {
+  margin-left: 150px;
+  font-size: 80px;
+  color: white;
+}
+.buttontwo {
+  background-color: #e6115f;
+  width: 170px;
+  height: 60px;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  margin-top: 140px;
+  margin-left: 150px;
+  position: absolute;
+  top: 360px;
+}
+.hhh {
+  font-size: 80px;
+  color: white;
+  margin-left: 150px;
+}
+.forflex {
+  height: 500px;
+  padding-top: 200px;
+  position: relative;
+}
+.white {
+  color: white;
+  font-size: 20px;
+  margin-left: 150px;
+}
+
+.whiteone {
+  color: white;
+  font-size: 20px;
+  margin-left: 150px;
+}
+.mainfour {
+  height: 760px;
+  background-color: #fcf8f9;
+  display: flex;
+  gap: 120px;
+}
+.supportimage {
+  height: 500px;
+  margin-left: 160px;
+  margin-top: 100px;
+}
+.who {
+  margin-top: 180px;
+  font-weight: bold;
+  font-size: 50px;
+}
+.content {
+  font-weight: bold;
+}
+.learnbutton {
+  background-color: #c30047;
+  height: 60px;
+  width: 150px;
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+  border: none;
+  margin-top: 20px;
+}
+.mainfive {
+  height: 210px;
+  background-image: url(./section-bg1.jpg);
+
+  position: relative;
+}
+.fiveflex {
+  display: flex;
+  font-size: 60px;
+  color: white;
+  justify-content: center;
+  padding-top: 64px;
+
+  gap: 210px;
+}
+.mainsix {
+  height: 700px;
+  margin-top: 150px;
+}
+.weserve {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+.page {
+  text-align: center;
+  margin-top: 30px;
+}
+.pageone {
+  text-align: center;
+}
+.forflexone {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  padding-top: 60px;
+}
+.eleven {
+  width: 400px;
+}
+.flexsix {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 20px;
+}
+.maindivseven {
+  height: 630px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./section-bg2.jpg);
+  padding-top: 60px;
+  overflow: hidden;
+}
+.imagefour {
+  height: 500px;
+  width: 630px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 800px;
+  overflow: hidden;
+}
+.need {
+  margin-top: 70px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+.element {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.donatethree {
+  background-color: #c30047;
+  height: 70px;
+  width: 200px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 50px;
+  border: none;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.maindiveight {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.join {
+  width: 500px;
+  height: 450px;
+  padding-left: 40px;
+}
+.forimage {
+  width: 500px;
+  height: 450px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 40px;
+  background-image: url(./joining1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.forimagetwo {
+  width: 350px;
+  height: 450px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-image: url(./joining2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.joinwith {
+  font-weight: bold;
+  font-size: 50px;
+}
+.para {
+  font-size: 20px;
+}
+.fotter {
+  height: 490px;
+  margin-top: 100px;
+  background-color: #301a22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.fotter:hover {
+  background-color: red;
+}
+
+.logo {
+  width: 400px;
+  height: 360px;
+}
+.charityflex {
+  display: flex;
+  gap: 20px;
+}
+.cha {
+  color: white;
+  font-weight: bold;
+}
+.twelve {
+  width: 60px;
+}
+.colourred {
+  margin-top: 50px;
+  color: white;
+  font-size: 17px;
+}
+.flex {
+  display: flex;
+  height: 30px;
+  gap: 30px;
+  margin-top: 80px;
+}
+.navi {
+  width: 200px;
+  height: 360px;
+  color: white;
+  padding-left: 20px;
+}
+.font {
+  font-size: 23px;
+  margin-top: 50px;
+}
+.services {
+  width: 200px;
+  height: 360px;
+  color: white;
+}
+.subscribe {
+  width: 470px;
+  height: 360px;
+}
+.email {
+  display: flex;
+  padding-top: 60px;
+  position: relative;
+}
+.inputone {
+  width: 400px;
+  height: 70px;
+  font-size: 25px;
+  border-radius: 40px;
+  border: 1px solid white;
+  background-color: #301a22;
+  font-weight: bold;
+  padding-left: 25px;
+}
+.botton {
+  position: absolute;
+  left: 301px;
+  width: 130px;
+  height: 70px;
+  border-radius: 50px;
+  font-size: 25px;
+  color: white;
+  background-color: #c30047;
+  border: none;
+  outline: none;
+}
+.center {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.subs {
+  color: white;
+  font-weight: bold;
+}
+.fotterone {
+  background-color: #301a22;
+  height: 50px;
+}
+.end {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+span {
+  color: #c30047;
+}
+
+@media only screen and (max-width: 600px) {
+  .imgparent {
+    flex-direction: column;
+    width: 100%;
+
+    /* background-color: black; */
+  }
+  .firstimage {
+    width: 100%;
+  }
+  .secondimage {
+    width: 100%;
+  }
+  .thirddimage {
+    width: 100%;
+  }
+  .mainfour {
+    flex-direction: column;
+    margin-top: 40px;
+    border: 2px solid black;
+  }
+}
